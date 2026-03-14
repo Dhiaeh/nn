@@ -50,38 +50,49 @@
   document.getElementById("mainImage").src = element.src;
 }</script>
 
-  <!-- Order Form -->
-  <div class="order-form">
-    <form action="https://formsubmit.co/dhiaegames3@gmail.com" method="POST">
+ <div class="order-form">
 
-      <input type="text" name="Name" placeholder="Name" required>
+<h2>Order Now</h2>
 
-      <input type="text" name="FamilyName" placeholder="Family Name" required>
+<form action="https://formsubmit.co/dhiaegames3@gmail.com" method="POST">
 
-      <input type="tel" name="Phone" placeholder="Phone Number" required>
+<input type="text" name="Name" placeholder="Name" required>
 
-      <select name="Wilaya" required>
-        <option value="">Select Wilaya</option>
-        <option>Alger</option>
-        <option>Setif</option>
-        <option>Oran</option>
-        <option>Constantine</option>
-        <option>Annaba</option>
-        <option>Batna</option>
-      </select>
+<input type="text" name="FamilyName" placeholder="Family Name" required>
 
-      <select name="Size" required>
-        <option value="">Select Size</option>
-        <option>S</option>
-        <option>M</option>
-        <option>L</option>
-        <option>XL</option>
-      </select>
+<input type="tel" name="Phone" placeholder="Phone Number" required>
 
-      <button type="submit">Order Now</button>
+<select name="Wilaya" required>
+<option value="">Select Wilaya</option>
+<option>Alger</option>
+<option>Setif</option>
+<option>Oran</option>
+<option>Constantine</option>
+<option>Annaba</option>
+<option>Batna</option>
+</select>
 
-    </form>
-  </div>
+<select name="Size" required>
+<option value="">Select Size</option>
+<option>S</option>
+<option>M</option>
+<option>L</option>
+<option>XL</option>
+</select>
+
+<input type="number" name="Quantity" placeholder="Quantity" min="1">
+
+
+
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="New Order From BDwear">
+<input type="hidden" name="_template" value="table">
+
+<button type="submit">Order Now</button>
+
+</form>
+
+</div>
 
 </section>
 <footer>
