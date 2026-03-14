@@ -1,0 +1,191 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  padding-top: 200px;
+}
+
+/* Header */
+header{
+  background:#ffffff;
+  color:rgb(0, 0, 0);
+  padding:0.5px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+header a{
+  color:rgb(0, 0, 0);
+  text-decoration:none;
+  margin-left:20px;
+}
+
+/* Hero section */
+.hero{
+  
+  text-align:center;
+  padding:120px 20px;
+}
+
+.hero h1{
+  font-size:50px;
+}
+
+.hero button{
+  padding:15px 30px;
+  font-size:18px;
+  border:none;
+  background:rgb(12, 100, 0);
+  color:#ffffff;
+  border-radius:5px;
+  cursor:pointer;
+
+}
+
+/* Features */
+.features{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  padding:60px 20px;
+}
+
+.feature{
+  max-width:250px;
+  text-align:center;
+}
+
+/* Footer */
+footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+.container {
+  
+  width: 400px;  /* adjust as needed */
+  margin: 50px auto;
+  text-align: center;
+  padding:100px;
+}
+
+/* Main image styling */
+.main-image img {
+  width: 100%;          /* fills container width */
+  max-width: 600px;     /* optional max width */
+  height: 400px;        /* set desired height */
+  object-fit: cover;    /* fills the box, crops extra without stretching */
+  border: 2px solid #333;
+  border-radius: 10px;  /* optional rounded corners */
+  margin-bottom: 15px;  /* space below main image */
+}
+
+/* Thumbnails container */
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* space between thumbnails */
+}
+
+/* Thumbnail images */
+.thumbnails img {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border 0.2s;
+}
+
+.thumbnails img:hover {
+  border: 2px solid #333;
+}
+
+body{
+font-family: Arial;
+background:#f2f2f2;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:350px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+h2{
+margin-bottom:20px;
+}
+
+input,select{
+width:100%;
+padding:12px;
+margin:8px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+button{
+background:black;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#333;
+}
+
+footer{
+position:fixed;
+bottom:0;
+left:0;
+width:100%;
+background:#111;
+color:white;
+text-align:center;
+padding: 0.5px;
+font-size:9px;
+
+
+}
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+}
+
+form input,
+form select,
+form button{
+padding:12px;
+margin:8px 0;
+border-radius:5px;
+border:1px solid #ccc;
+font-size:16px;
+}
+
+form button{
+background:black;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+form button:hover{
+background:#333;
+}

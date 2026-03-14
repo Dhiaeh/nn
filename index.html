@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>bd wear</title>
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  
+
+
+<header>
+  <h2>BDwear</h2>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Features</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<section class="container">
+
+  <!-- Images -->
+  <div class="images">
+    <div class="main-image">
+      <img id="mainImage" src="img1.jpg" alt="Main Image">
+    </div>
+
+    <div class="thumbnails">
+      <img src="img1.jpg" onclick="changeImage(this)">
+      <img src="img2.jpg" onclick="changeImage(this)">
+      <img src="img3.jpg" onclick="changeImage(this)">
+    </div>
+  </div>
+ <script> function changeImage(element) {
+  document.getElementById("mainImage").src = element.src;
+}</script>
+
+  <!-- Order Form -->
+  <div class="order-form">
+    <form action="https://formsubmit.co/dhiaegames3@gmail.com" method="POST">
+
+      <input type="text" name="Name" placeholder="Name" required>
+
+      <input type="text" name="FamilyName" placeholder="Family Name" required>
+
+      <input type="tel" name="Phone" placeholder="Phone Number" required>
+
+      <select name="Wilaya" required>
+        <option value="">Select Wilaya</option>
+        <option>Alger</option>
+        <option>Setif</option>
+        <option>Oran</option>
+        <option>Constantine</option>
+        <option>Annaba</option>
+        <option>Batna</option>
+      </select>
+
+      <select name="Size" required>
+        <option value="">Select Size</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+      </select>
+
+      <button type="submit">Order Now</button>
+
+    </form>
+  </div>
+
+</section>
+<footer>
+  <p>© 2026 MyBrand. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
